@@ -207,21 +207,21 @@ let mySprite2 = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(mySprite2)
 Fire_Ball = sprites.create(img`
-    . . b b b b b b b b b b b b . . 
-    . b e 4 4 4 4 4 4 4 4 4 4 e b . 
-    b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
-    b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
-    b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
-    b e e 4 4 4 4 4 4 4 4 4 4 e e b 
-    b e e e e e e e e e e e e e e b 
-    b e e e e e e e e e e e e e e b 
-    b b b b b b b d d b b b b b b b 
-    c b b b b b b c c b b b b b b c 
-    c c c c c c b c c b c c c c c c 
-    b e e e e e c b b c e e e e e b 
-    b e e e e e e e e e e e e e e b 
-    b c e e e e e e e e e e e e c b 
-    b b b b b b b b b b b b b b b b 
-    . b b . . . . . . . . . . b b . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . 4 4 4 4 . . . . . . 
+    . . . . 4 4 4 5 5 4 4 4 . . . . 
+    . . . 3 3 3 3 4 4 4 4 4 4 . . . 
+    . . 4 3 3 3 3 2 2 2 1 1 4 4 . . 
+    . . 3 3 3 3 3 2 2 2 1 1 5 4 . . 
+    . 4 3 3 3 3 2 2 2 2 2 5 5 4 4 . 
+    . 4 3 3 3 2 2 2 4 4 4 4 5 4 4 . 
+    . 4 4 3 3 2 2 4 4 4 4 4 4 4 4 . 
+    . 4 2 3 3 2 2 4 4 4 4 4 4 4 4 . 
+    . . 4 2 3 3 2 4 4 4 4 4 2 4 . . 
+    . . 4 2 2 3 2 2 4 4 4 2 4 4 . . 
+    . . . 4 2 2 2 2 2 2 2 2 4 . . . 
+    . . . . 4 4 2 2 2 2 4 4 . . . . 
+    . . . . . . 4 4 4 4 . . . . . . 
+    . . . . . . . . . . . . . . . . 
     `, SpriteKind.Food)
-Fire_Ball.startEffect(effects.trail)
+Fire_Ball.startEffect(effects.fire)
